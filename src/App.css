@@ -1,0 +1,42 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: all .5s ease-in-out;
+
+
+}
+html{
+  width: 100vw;
+  overflow-x: hidden;
+}
+body{
+
+  width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+
+.navigatorContainers .nanigator2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid currentColor .5px;
+
+}
+
+.navigatorContainers .nanigator2 div {
+  border: solid currentColor .5px;
+  padding: 10px 20px;
+  background-color: white;
+}
